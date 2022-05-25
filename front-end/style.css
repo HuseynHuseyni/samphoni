@@ -1,0 +1,53 @@
+body{
+    font-family: "comic sans ms", sans serif;
+    background-color: lightgreen;
+    margin: 0;
+    direction: rtl;
+    font-family: 'homa';
+}
+@font-face
+{
+	font-family: 'homa';
+	src: url("fonts/BHoma.ttf")
+}
+
+h2{
+    background-color: forestgreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+td{
+    padding: 5px;
+    white-space: nowrap;
+}
+input{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid forestgreen;
+}
+input:hover{
+    box-shadow: 5px 5px 5px black;
+}
+
+.button{
+    background-color: forestgreen;
+    color:#fff;
+    border: none;
+    padding: 7px
+}
+
+.button:hover {
+    cursor: pointer;
+    box-shadow: 5px 5px 5px red;
+}
+.jadval
+{
+    border: 1px solid black;
+}
