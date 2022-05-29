@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>form</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v32.102/Vazirmatn-Variable-font-face.css"
+        rel="stylesheet" type="text/css" />
+
+    <style>
+        body {
+            font-family: Vazirmatn;
+            font-variation-settings: "wght" 400;
+            background-color: #e8e8e8;
+        }
+
+        h1 {
+            font-variation-settings: "wght" 900;
+        }
+
+        .heading {
+            margin-top: 15px;
+        }
+
+        .personal-info {
+            margin-bottom: 25px;
+        }
+
+        .address {
+            margin: 25px 0;
+        }
+
+        small {
+            font-size: 11.5px;
+        }
+        #table-1
+        {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="container-fluid">
+        <h2 class="text-center heading">فرم اطلاعات عمومی مراجعین/بیماران</h2>
+
+        <hr>
+
+        <h4 class="personal-info">اطلاعات شخصی</h4>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">نام و نام خانوادگی</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">نام پدر</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">شماره پرونده</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">تاریخ تکمیل فرم</label>
+                    <div class="col-sm-6">
+                        <input type="date" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">کد ملی</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">جنسیت</label>
+                    <div class="col-sm-6">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender">
+                            <label class="form-check-label">مرد</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="gender">
+                            <label class="form-check-label">زن</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h5 class="address">محل سکونت</h5>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">استان</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">شهرستان</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">شماره تلفن</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">شماره موبایل</label>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">وضعیت تاهل</label>
+                    <div class="col-sm-6">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="marrige-stat">
+                            <label class="form-check-label>متاهل</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="marrige-stat">
+                            <label class="form-check-label">مجرد</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="marrige-stat">
+                            <label class="form-check-label">بیوه</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="marrige-stat">
+                            <label class="form-check-label">مطلقه</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">درآمد ماهیانه</label>
+                    <div class="col-sm-6">
+                        <select class="form-select">
+                            <option>زیر ۱ میلیون تومان</option>
+                            <option>تا ۲ میلیون تومان</option>
+                            <option>تا ۳ میلیون تومان</option>
+                            <option>بیشتر از ۴ میلیون تومان</option>
+                          </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">قد</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">وزن</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label for="full-name" class="col-sm-3 col-form-label">سن شروع قاعدگی</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control" id="full-name">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-4 col-form-label"><small>سن مادر هنگام اولین تولد نوزاد زنده</small></label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label"><small>آیا در جال حاضر حامله هستید؟</small></label>
+                    <div class="col-sm-6">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pregnancy-stat">
+                            <label class="form-check-label">بله</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pregnancy-stat">
+                            <label class="form-check-label">خیر</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3 row">
+                        <label class="col-sm-3 col-form-label"><small>سابقه مرده زایی دارد</small></label>
+                        <div class="col-sm-6">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="pregnancy-stat">
+                                <label class="form-check-label">دارد</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="pregnancy-stat">
+                                <label class="form-check-label">ندارد</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label for="full-name" class="col-sm-3 col-form-label">تعداد حاملگی قبلی</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control" id="full-name">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-4 col-form-label">تعداد زایمان</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label for="full-name" class="col-sm-3 col-form-label">تعداد سقط</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control" id="full-name">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-4 col-form-label">سن هنگام اولین سقط</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label for="full-name" class="col-sm-3 col-form-label">تعداد فرزندان</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control" id="full-name">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-4 col-form-label">تعداد ماههای شیردهی</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">وضعیت یائسگی</label>
+                    <div class="col-sm-6">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pregnancy-stat">
+                            <label class="form-check-label">یائسه شده</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pregnancy-stat">
+                            <label class="form-check-label">یاسئه نشده</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3 row">
+                        <label for="full-name" class="col-sm-3 col-form-label">سن یائسگی</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control" id="full-name">
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6">
+                    <div class="mb-3 row">
+                        <label class="col-sm-4 col-form-label">هیسترکتومی</label>
+                        <div class="col-sm-6">
+                            <input type="number" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="mb-3 row">
+                        <label class="col-md-5 col-form-label">استفاده از داروهایی نازایی</label>
+                        <div class="col-sm-6">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="pregnancy-stat">
+                                <label class="form-check-label">بله</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="pregnancy-stat">
+                                <label class="form-check-label">خیر</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3 row">
+                            <label for="full-name" class="col-sm-3 col-form-label">چه مدت</label>
+                            <div class="col-sm-6">
+                                <input type="number" class="form-control" id="full-name">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-bordered" id="table-1">
+                    <thead>
+                      <tr>
+                        <th scope="col" colspan="2">بیماری</th>
+                        <th scope="col">مدت زمان بیماری(ماه)</th>
+                        <th scope="col">سن در زمان تشخیص</th>
+                        <th scope="col">تحت درمان است</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">دیابت</th>
+                      </tr>
+                      <tr>
+                        <th scope="row">پرفشار خون</th>
+                        <td></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">بیماری قلبی</th>
+                        <td colspan="2"></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">کلسترول خون بالا</th>
+                        <td colspan="2"></td>
+
+                      </tr>
+                      <tr>
+                        <th scope="row">کم کاری ترویئد</th>
+                        <td colspan="2"></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">پرکاری ترویئد</th>
+                        <td colspan="2"></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">MS</th>
+                        <td colspan="2"></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">منژیوم</th>
+                        <td colspan="2"></td>
+                      </tr>
+                      <tr>
+                        <th scope="row">بیماری روماتیئودی</th>
+                        <td colspan="2"></td>
+
+                      </tr>
+                      <tr>
+                        <th scope="row">TB</th>
+                        <td colspan="2"></td>
+
+                      </tr>
+                      <tr>
+                        <th scope="row">سایر بیماری ها</th>
+                        <td colspan="2"></td>
+                      </tr>
+
+
+                    </tbody>
+                  </table>
+
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
