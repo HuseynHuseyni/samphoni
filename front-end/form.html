@@ -32,6 +32,10 @@
         .address {
             margin: 25px 0;
         }
+
+        small {
+            font-size: 11.5px;
+        }
     </style>
 </head>
 
@@ -46,18 +50,18 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="mb-3 row">
-                    <label for="full-name" class="col-sm-3 col-form-label">نام و نام خانوادگی</label>
+                    <label class="col-sm-3 col-form-label">نام و نام خانوادگی</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="full-name">
+                        <input type="text" class="form-control">
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="mb-3 row">
-                    <label for="father-name" class="col-sm-3 col-form-label">نام پدر</label>
+                    <label class="col-sm-3 col-form-label">نام پدر</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="father-name">
+                        <input type="text" class="form-control">
                     </div>
                 </div>
             </div>
@@ -66,18 +70,18 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="mb-3 row">
-                    <label for="form-number" class="col-sm-3 col-form-label">شماره پرونده</label>
+                    <label class="col-sm-3 col-form-label">شماره پرونده</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="form-number">
+                        <input type="text" class="form-control">
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="mb-3 row">
-                    <label for="form-date" class="col-sm-3 col-form-label">تاریخ تکمیل فرم</label>
+                    <label class="col-sm-3 col-form-label">تاریخ تکمیل فرم</label>
                     <div class="col-sm-6">
-                        <input type="date" class="form-control" id="form-date">
+                        <input type="date" class="form-control">
                     </div>
                 </div>
             </div>
@@ -87,24 +91,24 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="mb-3 row">
-                    <label for="NID" class="col-sm-3 col-form-label">کد ملی</label>
+                    <label class="col-sm-3 col-form-label">کد ملی</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="NID">
+                        <input type="text" class="form-control">
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="mb-3 row">
-                    <label for="form-date" class="col-sm-3 col-form-label">جنسیت</label>
+                    <label class="col-sm-3 col-form-label">جنسیت</label>
                     <div class="col-sm-6">
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="gender">
-                            <label class="form-check-label" for="male">مرد</label>
+                            <label class="form-check-label">مرد</label>
                         </div>
                         <div class="form-check form-check-inline">
                             <input class="form-check-input" type="radio" name="gender">
-                            <label class="form-check-label" for="female">زن</label>
+                            <label class="form-check-label">زن</label>
                         </div>
                     </div>
                 </div>
@@ -116,18 +120,18 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="mb-3 row">
-                    <label for="province" class="col-sm-3 col-form-label">استان</label>
+                    <label class="col-sm-3 col-form-label">استان</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="province">
+                        <input type="text" class="form-control">
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="mb-3 row">
-                    <label for="city" class="col-sm-3 col-form-label">شهرستان</label>
+                    <label class="col-sm-3 col-form-label">شهرستان</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="city">
+                        <input type="text" class="form-control">
                     </div>
                 </div>
             </div>
@@ -136,18 +140,18 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="mb-3 row">
-                    <label for="phone-number" class="col-sm-3 col-form-label">شماره تلفن</label>
+                    <label class="col-sm-3 col-form-label">شماره تلفن</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="phone-number">
+                        <input type="text" class="form-control">
                     </div>
                 </div>
             </div>
 
             <div class="col-md-6">
                 <div class="mb-3 row">
-                    <label for="mobile-number" class="col-sm-3 col-form-label">شماره موبایل</label>
+                    <label class="col-sm-3 col-form-label">شماره موبایل</label>
                     <div class="col-sm-6">
-                        <input type="text" class="form-control" id="mobile-number">
+                        <input type="text" class="form-control">
                     </div>
                 </div>
             </div>
@@ -159,25 +163,101 @@
                     <label class="col-sm-3 col-form-label">وضعیت تاهل</label>
                     <div class="col-sm-6">
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="married">
-                            <label class="form-check-label" for="married">متاهل</label>
+                            <input class="form-check-input" type="radio" name="marrige-stat">
+                            <label class="form-check-label>متاهل</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="not-married">
-                            <label class="form-check-label" for="not-married">مجرد</label>
+                            <input class="form-check-input" type="radio" name="marrige-stat">
+                            <label class="form-check-label">مجرد</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="widow">
-                            <label class="form-check-label" for="widow">بیوه</label>
+                            <input class="form-check-input" type="radio" name="marrige-stat">
+                            <label class="form-check-label">بیوه</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="checkbox" id="divorced">
-                            <label class="form-check-label" for="divorced">مطلقه</label>
+                            <input class="form-check-input" type="radio" name="marrige-stat">
+                            <label class="form-check-label">مطلقه</label>
                         </div>
                     </div>
                 </div>
             </div>
 
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">درآمد ماهیانه</label>
+                    <div class="col-sm-6">
+                        <select class="form-select">
+                            <option>زیر ۱ میلیون تومان</option>
+                            <option>تا ۲ میلیون تومان</option>
+                            <option>تا ۳ میلیون تومان</option>
+                            <option>بیشتر از ۴ میلیون تومان</option>
+                          </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">قد</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label">وزن</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label for="full-name" class="col-sm-3 col-form-label">سن شروع قاعدگی</label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control" id="full-name">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label"><small>سن مادر هنگام اولین تولد نوزاد زنده</small></label>
+                    <div class="col-sm-6">
+                        <input type="number" class="form-control">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="mb-3 row">
+                    <label class="col-sm-3 col-form-label"><small>آیا در جال حاضر حامله هستید؟</small></label>
+                    <div class="col-sm-6">
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pregnancy-stat">
+                            <label class="form-check-label">بله</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="pregnancy-stat">
+                            <label class="form-check-label">خیر</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
         </div>
 
     </main>
